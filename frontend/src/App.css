@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(141, 23, 23);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.bg-custom {
+  background-color: #484848;
+  /* Substitua pelo código de cor desejado */
+}
+
+.logo-image {
+  width: 50px;
+  margin: 0 1.5%;
+
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-nav .nav-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+.navbar-nav .nav-item .btn {
+  width: 100%;
+  border-color: transparent;
+}
+
+.navbar-nav .nav-item .btn.btn-success {
+  background-color: rgb(45, 45, 45);
+}
+
+.navbar-nav .nav-item .btn:hover {
+  background-color: #0283a7;
+  color: #fff;
+}
+
+.load-fill-data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.load-fill-data-table th,
+.load-fill-data-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.load-fill-data-table th {
+  background-color: #f2f2f2;
+}
+
+.load-fill-data-table td:last-child {
+  white-space: nowrap;
+}
+
+.load-fill-data-table td button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.load-fill-data-table td .btn-edit {
+  background-color: #007bff;
+}
+
+.load-fill-data-table td .btn-delete {
+  background-color: #636363;
+}
+
+.load-fill-data-table td button:hover {
+  opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;
+}
+
+.btn-add-filme {
+  position: fixed;
+  bottom: 5vh;
+  right: 4vh;
+  z-index: 9999;
+  border-radius: 50%;
+  width: 15vh;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1vh 1vh rgba(0, 0, 0, 0.4);
+}
+
+.margens{
+  margin-left: 10vh;
+  margin-right: 10vh;
+  padding: 1vh;
+}
+
+.data{
+  margin-top: 3vh;
+}
