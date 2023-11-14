@@ -1,4 +1,6 @@
-# Movie Manager
+ <img src="frontend/public/video-camera.ico" width="100" height="100">
+ 
+ # Movie Manager
 
 > A web application for managing and organizing your movie collection using Node.js, Express, and React, following the MVC architecture.
 
